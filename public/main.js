@@ -152,7 +152,7 @@ class RegistrationComponent {
         ;
         console.log(user);
         this.authService.registerUser(user).subscribe(data => {
-            console.log('data sub', data);
+            console.log('data', data);
             // @ts-ignore
             if (!data.success) {
                 // @ts-ignore

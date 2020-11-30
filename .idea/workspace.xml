@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa43105a-a4a1-4bbe-989d-a8ea3d39543a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/angular.json" afterDir="false" />
@@ -58,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606716994698</updated>
       <workItem from="1606716997024" duration="7815000" />
-      <workItem from="1606749021365" duration="2737000" />
+      <workItem from="1606749021365" duration="3427000" />
     </task>
     <servers />
   </component>
