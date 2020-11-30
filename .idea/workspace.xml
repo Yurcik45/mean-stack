@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa43105a-a4a1-4bbe-989d-a8ea3d39543a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/angular.json" afterDir="false" />
@@ -21,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/angular-front-end/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/polyfills.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/src/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606716994698</updated>
       <workItem from="1606716997024" duration="7815000" />
-      <workItem from="1606749021365" duration="3779000" />
+      <workItem from="1606749021365" duration="4379000" />
     </task>
     <servers />
   </component>
@@ -86,5 +88,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1259" height="207" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606720604574" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1606754412113">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606754412113" />
   </component>
 </project>

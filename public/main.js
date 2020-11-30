@@ -1682,14 +1682,14 @@ class AuthService {
         const urlReg = 'account/registration';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
-        return this.http.post(urlReg, user, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
+        return this.http.post(urlReg, user, { headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
     }
     searchDates(needDate) {
         console.log('need date in auth func :', needDate);
         const urlStat = 'account/statistic';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
-        return this.http.post(urlStat, needDate, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
+        return this.http.post(urlStat, needDate, { headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
     }
     // searchWorkerOfDate(data) {
     //   const urlStat = 'http://localhost:3000/account/statistic';
@@ -1704,7 +1704,7 @@ class AuthService {
         const urlAuth = 'account/authentication';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
-        return this.http.post(urlAuth, user, { headers: headers })
+        return this.http.post(urlAuth, user, { headers })
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
     }
     storeUser(token, user) {
@@ -2154,7 +2154,7 @@ class InspectionService {
         const urlReg = 'account/userPage';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
-        return this.http.post(urlReg, newInspection, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
+        return this.http.post(urlReg, newInspection, { headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
     }
 }
 InspectionService.ɵfac = function InspectionService_Factory(t) { return new (t || InspectionService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
