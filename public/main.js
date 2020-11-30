@@ -88,8 +88,6 @@ class RegistrationComponent {
             user.name = this.name;
         }
         ;
-        console.log(user);
-        console.log(this.item);
         if (this.login == undefined || this.login == '') {
             this.loginSet = false;
             this.item = 'логін';
@@ -102,8 +100,6 @@ class RegistrationComponent {
             user.login = this.login;
         }
         ;
-        console.log(user);
-        console.log(this.item);
         if (this.email == undefined || this.email == '') {
             this.emailSet = false;
             this.item = 'електронна адреса';
@@ -116,8 +112,6 @@ class RegistrationComponent {
             user.email = this.email;
         }
         ;
-        console.log(user);
-        console.log(this.item);
         if (this.password_1 == undefined || this.password_1 == '') {
             this.password_1Set = false;
             this.item = 'пароль';
@@ -129,8 +123,6 @@ class RegistrationComponent {
             this.password_1Set = true;
         }
         ;
-        console.log(user);
-        console.log(this.item);
         if (this.password_2 == undefined || this.password_2 == '') {
             this.password_2Set = false;
             this.item = 'підтвердіть пароль';
@@ -142,8 +134,6 @@ class RegistrationComponent {
             this.password_2Set = true;
         }
         ;
-        console.log(user);
-        console.log(this.item);
         if (this.password_1 !== this.password_2) {
             user.password = null;
             this.item = 'паролі не співпадають';
@@ -161,7 +151,6 @@ class RegistrationComponent {
         }
         ;
         console.log(user);
-        console.log(this.item);
         this.authService.registerUser(user).subscribe(data => {
             console.log('data sub', data);
             // @ts-ignore

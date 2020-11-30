@@ -21,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/angular-front-end/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/polyfills.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/src/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/styles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-front-end/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/angular-front-end" />
   </component>
   <component name="ProjectId" id="1kzwzsWJmLbJbIkLf4vr5VqkCuJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606716994698</updated>
       <workItem from="1606716997024" duration="7815000" />
-      <workItem from="1606749021365" duration="2477000" />
+      <workItem from="1606749021365" duration="2737000" />
     </task>
     <servers />
   </component>
