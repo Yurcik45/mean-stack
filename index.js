@@ -12,6 +12,19 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://yurcik:Iphone10x@cluster0.ekgf1.mongodb.net/mean?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+    const collection = client.db("test").collection("devices");
+    // perform actions on the collection object
+    client.close();
+});
+
+
+
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/account', account);
@@ -21,7 +34,7 @@ app.use(passport.session());
 require("./config/passport")(passport)
 
 // Connected to MongoDB
-mongoose.connect(configDB.db, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.on('connected', () => {
     console.log('_-_ Connected to mongoDB _-_');
 });
