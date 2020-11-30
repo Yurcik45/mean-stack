@@ -35,9 +35,9 @@ mongoose.connection.on('error', (err) => {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req,res) => {
-    res.send('Home page');
-});
+// app.get('/', (req,res) => {
+//     res.send('Home page');
+// });
 
 
 app.listen(PORT, () => {

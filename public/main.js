@@ -1690,14 +1690,14 @@ class AuthService {
         this.router = router;
     }
     registerUser(user) {
-        const urlReg = 'http://localhost:3000/account/registration';
+        const urlReg = 'account/registration';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
         return this.http.post(urlReg, user, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
     }
     searchDates(needDate) {
         console.log('need date in auth func :', needDate);
-        const urlStat = 'http://localhost:3000/account/statistic';
+        const urlStat = 'account/statistic';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
         return this.http.post(urlStat, needDate, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
@@ -1712,7 +1712,7 @@ class AuthService {
     //     {headers: headers}).pipe(map(data => data));
     // }
     authUser(user) {
-        const urlAuth = 'http://localhost:3000/account/authentication';
+        const urlAuth = 'account/authentication';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
         return this.http.post(urlAuth, user, { headers: headers })
@@ -2162,7 +2162,7 @@ class InspectionService {
         this.http = http;
     }
     addInspection(newInspection) {
-        const urlReg = 'http://localhost:3000/account/userPage';
+        const urlReg = 'account/userPage';
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
         headers.append('Content-Type', 'application/json; charset=utf-8');
         return this.http.post(urlReg, newInspection, { headers: headers }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(data => data));
